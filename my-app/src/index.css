@@ -8,16 +8,11 @@ body {
   display: flex;
 }
 
+.tabs .tab a {
+  font-size: 26px;
+  padding: 0 150px;
+}
+
 .active {
   font-weight: bold;
-}
-
-.nav li {
-  margin-right: 15px;
-  text-decoration: none;
-}
-
-.a {
-  text-decoration: none;
-  color: purple;
 }
