@@ -7,17 +7,16 @@ import { About } from './About';
 import { Nav } from './Nav';
 import { Contact } from './Contact';
 import { Projects } from './Projects';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 class App extends React.Component {
   render() {
     return (
-      <Router>
-      <div className = 'container'>
+      <div>
       <Nav />
-      <Route exact path= '/About' Component={ About } />
+      <About />
       </div>
-      </Router>
     );
   }
 }
