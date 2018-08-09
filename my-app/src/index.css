@@ -6,6 +6,7 @@ body {
 
 .nav {
   display: flex;
+
 }
 
 .tabs .tab a {
@@ -15,4 +16,9 @@ body {
 
 .active {
   font-weight: bold;
+}
+
+.section-header {
+  text-align: center;
+  color: gray;
 }

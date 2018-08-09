@@ -4,9 +4,13 @@ import { CardPanel, Row, Col } from 'react-materialize';
 
 export class Projects extends React.Component {
   render() {
+  var show = this.props.show;
+  let styles = {
+    display: show
+  }
     return (
-      <div>
-      <h1>Projects</h1>
+      <div style={styles}>
+      <h1 className='section-header'>Projects</h1>
       <Row>
         <Col s={12} m={5}>
             <CardPanel className="teal lighten-4 black-text">

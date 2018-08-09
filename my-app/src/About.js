@@ -5,10 +5,14 @@ import { Card, CardTitle, Row, Col } from 'react-materialize';
 
 export class About extends React.Component {
   render() {
+     var show = this.props.show;
+     let styles = {
+       display: show
+     }
     return (
-      <div>
+      <div style={styles}>
       <Row>
-       <h1>About</h1>
+       <h1 className='section-header'>About</h1>
       </Row>
       <Row>
         <Col m={.5} className='grid-example'></Col>

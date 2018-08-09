@@ -5,9 +5,9 @@ import { Tabs, Tab } from 'react-materialize';
 
 export const Nav = (props) => {
     return (
-    <Tabs className='nav'>
+    <Tabs onChange = {props.handleSection} className='nav'>
       <Tab title="About">About</Tab>
-      <Tab title="Projects" active>Projects</Tab>
+      <Tab title="Projects">Projects</Tab>
       <Tab title="Contact">Contact</Tab>
   </Tabs>
   )
